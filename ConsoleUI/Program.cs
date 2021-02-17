@@ -12,7 +12,7 @@ namespace ConsoleUI
             ProductTest();
             //CategoryTest();
         }
-
+        //deneme
         private static void CategoryTest()
         {
             CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
