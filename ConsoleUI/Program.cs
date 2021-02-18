@@ -28,11 +28,11 @@ namespace ConsoleUI
 
             var result = productManager.GetProductDetails();
 
-            if (result.Success==true)
+            if (result.Success == true)
             {
                 foreach (var item in result.Data)
                 {
-                    Console.WriteLine(item.ProductName + " || " + item.CategoryName );
+                    Console.WriteLine(item.ProductName + " || " + item.CategoryName);
                 }
             }
             else
